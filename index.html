@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Bharat ki apni Dukan</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#Home"><img id="Home" src="images/logo.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItem">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="product-deatails.html">Product Details</a></li>
+
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+                        <li><a href="Account.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <a href="cart.html"><img src="images/cart.png" alt="" height="30px" width="30px" ></a>
+                <img src="images/menu.png" alt="" class="menu" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br> A New Style</h1>
+                    <p>Success isn't always about greatness. Its about consistency</p>
+                    <a href="" class="btn">explore now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- featured category -->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- featured Products -->
+    <div  class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4"> <img src="images/product-1.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.49</p>
+            </div>
+            <div class="col-4"><img src="images/product-2.jpg" alt="">
+                <h4>HRX shoes black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-full-o"></i>
+                </div>
+                <p>$26.49</p>
+            </div>
+            <div class="col-4"><img src="images/product-3.jpg" alt="">
+                <h4>Trouser black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$30.99</p>
+            </div>
+            <div class="col-4"><img src="images/product-4.jpg" alt="">
+                <h4>Puma T-shirt blue</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$39.49</p>
+            </div>
+        </div>
+
+        <h2 id="cart" class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4"> <img src="images/product-5.jpg" alt="">
+                <h4>Nike Shoes Greay</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.49</p>
+            </div>
+            <div class="col-4"><img src="images/product-6.jpg" alt="">
+                <h4>Puma Black T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-full-o"></i>
+                </div>
+                <p>$26.49</p>
+            </div>
+            <div class="col-4"><img src="images/product-7.jpg" alt="">
+                <h4>HRX- Socks </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$30.99</p>
+            </div>
+            <div class="col-4"><img src="images/product-8.jpg" alt="">
+                <h4>Fossil Watch Black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$39.49</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4"> <img src="images/product-9.jpg" alt="">
+                <h4>Greay Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.49</p>
+            </div>
+            <div class="col-4"><img src="images/product-10.jpg" alt="">
+                <h4>Black Shoe Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-full-o"></i>
+                </div>
+                <p>$26.49</p>
+            </div>
+            <div class="col-4"><img src="images/product-11.jpg" alt="">
+                <h4>HRX Shoe Greay-White</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$30.99</p>
+            </div>
+            <div class="col-4"><img src="images/product-12.jpg" alt="">
+                <h4>Nike Trouser Black</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$39.49</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- offer -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" alt="">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on RedStore</p>
+                    <h1>Mi Smart Band 4</h1>
+                    <small>Step up, live more
+                        Full colour display and heart rate monitor. <br>
+                        Your transformation begins now.</small><br>
+                    <a class="btn" href="">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testnomial -->
+
+    <div id="about" class="testinomial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, in? Suscipit ad rerum similique,
+                        ducimus laboriosam distinctio labore praesentium repellat laudantium ex repudiandae hic
+                        incidunt.
+                        Labore praesentium et recusandae eum?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="">
+                    <h3>Joe Parker</h3>
+
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, in? Suscipit ad rerum similique,
+                        ducimus laboriosam distinctio labore praesentium repellat laudantium ex repudiandae hic
+                        incidunt.
+                        Labore praesentium et recusandae eum?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="">
+                    <h3>Martin Mann</h3>
+
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, in? Suscipit ad rerum similique,
+                        ducimus laboriosam distinctio labore praesentium repellat laudantium ex repudiandae hic
+                        incidunt.
+                        Labore praesentium et recusandae eum?</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="">
+                    <h3>Neha Sharma</h3>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- brands Ads  -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5"> <img src="images/logo-godrej.png" alt=""></div>
+                <div class="col-5"><img src="images/logo-oppo.png" alt=""></div>
+                <div class="col-5"><img src="images/logo-paypal.png" alt=""></div>
+                <div class="col-5"><img src="images/logo-philips.png" alt=""></div>
+                <div class="col-5"><img src="images/logo-coca-cola.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Account page -->
+
+    <div class="account-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/image1.png" alt="" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="Indicator">
+                        </div>
+                        <form id="loginform" >
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="">forget password</a>
+                        </form>
+
+                        <form id="registerform" >
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="email">
+                            <input type="password" placeholder="password">
+                            <button type="submit" class="btn">Register</button>
+                            
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <div id="contact" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone!</p>
+                    <div class="app-logo">
+                        <a href=""><img src="images/play-store.png" alt=""></a>
+                        <a href=""><img src="images/app-store.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our Purpose is to Sustainably make the pleasure and benefits of sports</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <a href=""><li>Coupons</li></a>
+                        <a href=""><li>Blog Post</li></a>
+                        <a href=""><li>Return Policy</li></a>
+                        <a href=""><li>Join Affiliate</li></a>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us </h3>
+                    <ul>
+                        <a href=""><li>Facebook</li></a>
+                        <a href=""><li>Twitter</li></a>
+                        <a href=""><li>Instagram</li></a>
+                        <a href=""><li>YouTube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Cp">Copyright @ 2021 - RedStore</p>
+        </div>
+    </div>
+
+    <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+    
+      </div>
+
+
+
+
+    <script>
+        var MenuItem = document.getElementById('MenuItem');
+        MenuItem.style.maxHeight = '0px';
+        function menutoggle(){
+            if(MenuItem.style.maxHeight == '0px'){
+                MenuItem.style.maxHeight = '200px';
+            }else{
+                MenuItem.style.maxHeight = '0px';
+            }
+        }
+    </script>
+
+    <script>
+        var loginform = document.getElementById("loginform");
+        var registerform = document.getElementById("registerform");
+
+        var Indicator = document.getElementById('Indicator');
+
+        function register(){
+            registerform.style.transform = "translateX(0px)";
+            loginform.style.transform = "translateX(0px)";
+            Indicator.style.transform = "translateX(100px)";
+
+
+
+        }
+
+        function login(){
+            registerform.style.transform = "translateX(300px)";
+            loginform.style.transform = "translateX(300px)";
+            Indicator.style.transform = "translateX(00px)";
+
+
+        }
+
+
+    </script>
+
+<script>
+    $(document).ready(function(){
+    if($(window).scrollTop() > 10){
+
+      $('header').addClass('header-active');
+    }else{
+      $('header').removeClass('header-active');
+    }
+    })
+
+    $('.facility').magnificPopup({
+      delegate:'a',
+      type:'image',
+      gallery:{
+        enabled:true
+      }
+    });
+   
+  </script>
+
+<script>
+    $('.counter').counterUp({
+      delay:10,
+      time:2000
+    });
+
+      //Get the buttton:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20 ) {
+        mybutton.style.display = "block";
+      }
+      else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+  </script>
+</body>
+
+</html>
